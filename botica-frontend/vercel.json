@@ -1,3 +1,4 @@
+
 @'
 {
   "rewrites": [
@@ -7,4 +8,6 @@
     }
   ]
 }
-'@ | Set-Content -Path .\botica-frontend\vercel.json -Encoding utf8
+'@ | Set-Content -Path .\botica-frontend\vercel.json -Encoding ascii
+
+Get-Content .\botica-frontend\vercel.json
