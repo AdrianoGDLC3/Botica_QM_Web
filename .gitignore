@@ -1,0 +1,62 @@
+﻿# Secretos y variables de entorno
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Configuración local con posibles credenciales
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
+
+# Java / Maven
+**/target/
+**/*.class
+**/hs_err_pid*
+**/.classpath
+**/.project
+**/.settings/
+
+# Node / React / Vite
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+
+# Flutter / Dart, si hubiera archivos auxiliares
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos compilados
+botica-api/target/
+
+# Configuración local con secretos
+botica-api/src/main/resources/application-local.yml
+botica-api/src/main/resources/application-local.yaml
+botica-api/src/main/resources/application-local.properties
+
+# Distribución local de Maven
+/apache-maven-3.10.0/
+
+# No publicar configuración con credenciales
+botica-api/src/main/resources/application.yml
+botica-api/src/main/resources/application.yaml
+botica-api/src/main/resources/application.properties
+
+# Archivos compilados
+botica-api/target/
+
+# Archivos auxiliares locales
+botica-api/GenerarBcrypt.java
+botica-api/arranque.log
+botica-api/classpath.txt
