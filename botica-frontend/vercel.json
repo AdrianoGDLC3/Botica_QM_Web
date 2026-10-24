@@ -1,13 +1,1 @@
-
-@'
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
-'@ | Set-Content -Path .\botica-frontend\vercel.json -Encoding ascii
-
-Get-Content .\botica-frontend\vercel.json
+{ "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] }
